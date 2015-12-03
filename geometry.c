@@ -12,7 +12,6 @@
 #include <stdio.h>
 #include <math.h>
 #include <errno.h>
-
 #include "geometry.h"
 
 #define FUZZY_EQ 0.01

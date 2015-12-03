@@ -93,13 +93,13 @@ END_TEST
 START_TEST(test_2d_area)
 {
 	coord_2d_t a,b,c;
-	a.x=1;
-	a.y=2;
-	b.x=-2;
-	b.y=7;
-	c.x=4;
+	a.x=0;
+	a.y=0;
+	b.x=0;
+	b.y=2;
+	c.x=2;
 	c.y=0;
-	ck_assert(coord_2d_area_triangle(&a,&b,&c) == 4.5);
+	ck_assert(coord_2d_area_triangle(&a,&b,&c) == 2.0);
 }
 END_TEST
 /* coord_2d_midpoint Test */
