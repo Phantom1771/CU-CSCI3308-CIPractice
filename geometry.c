@@ -76,6 +76,6 @@ double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const co
 	double ay = a->y;
 	double by = b->y;
 	double cy = c->y;
-	double area=abs(((ax*(by-cy)) + (bx(cy-ay)) + (cx(ay-by)))/2);
+	double area=abs(((ax*(by-cy)) + (bx*(cy-ay)) + (cx*(ay-by)))/2);
 	return area;
 }
