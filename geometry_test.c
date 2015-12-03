@@ -99,8 +99,7 @@ START_TEST(test_2d_area)
 	b.y=7;
 	c.x=4;
 	c.y=0;
-	double ans= 4.5;
-	ck_assert(coord_2d_area_triangle(&a,&b,&c) == ans);
+	ck_assert(coord_2d_area_triangle(&a,&b,&c) == 4.5);
 }
 END_TEST
 /* coord_2d_midpoint Test */
